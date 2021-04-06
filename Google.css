@@ -1,0 +1,190 @@
+body 
+{
+  margin: 0;
+  padding: 0;
+}
+
+
+/*HEADER*/
+header
+{
+
+  width: 100%;
+  height: 130px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+/*LIST*/
+.Element1
+{
+
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+.Element1 ul
+{
+  display: flex;
+  list-style: none;
+}
+.Element1 ul li
+{
+  margin-right: 20px;
+}
+/*LIST END*/
+
+
+/*HEADER END*/
+
+
+/*---------------------------------------------------------*/
+
+
+/*SECTION*/
+section
+{
+margin: 0;
+padding: 0;
+}
+
+/* LOGO */
+.Element2
+{
+
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.ElementPhoto
+{
+
+  width: 550px;
+  height: 200px;
+}
+/*LOGO END*/
+
+/*BARRE RECHERCHE*/
+
+/* BARRE RECHERCHE FIN*/
+
+/*DOUBLE CASE*/
+
+.Element3 
+{
+  display: flex;
+  justify-content: center;
+  
+}
+.cadres-container
+{
+
+  display: flex;
+  justify-content: center;
+  width: 20%;
+
+}
+.cadre
+{
+
+  width: 100%;
+  height: 50px;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#f8f9fa;
+  border-radius: 10px / 10px;
+}
+/*DOUBLE CASE FIN*/
+
+/*CASE SEULE*/
+.Element4
+{
+  display: flex;
+  justify-content: center;
+
+}
+.CadreBas
+{    
+ 
+  width: 15%;
+  height: 50px;
+  display: flex;
+  justify-content:center;
+  justify-content: space-around;
+  margin: 10px;
+  display: flex;
+  list-style: none;
+}
+/*CASE SEULE FIN*/
+
+
+/*SECTION END*/
+
+/*-------------------------------------------------------*/
+
+
+/*FOOTER DEBUT*/
+.cadredefin
+{   
+
+width: 100%;
+height: 150px;
+justify-content: flex-end;
+display: flex;
+margin-top: 200px;
+flex-direction: column;
+background-color:#f2f2f2;
+
+}
+.cadrehaut
+{
+  border-bottom: solid 1px black;
+  width: 100%;
+  height: 60px;
+  padding-left: 20px;
+}
+.cadrebas
+{
+  justify-content: space-between;
+  display:flex;
+  flex-direction:row ;
+  height: 60px;
+}
+.cadre1
+{
+
+  display:flex;
+  list-style: none;
+  justify-content:space-between
+}
+.cadre1 li
+{
+  padding: 10px;
+}
+.cadre2
+{
+
+  display:flex;
+  width: 25%;
+  justify-content: center;
+}
+.cadre3
+{
+
+  display:flex;
+  list-style: none;
+  justify-content:space-between
+}
+.cadre3 li
+{
+  padding:10px
+}
+
+/*FOOTER FIN*/
+
